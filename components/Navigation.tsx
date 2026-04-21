@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 
@@ -21,8 +22,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-serif font-bold text-slate-900">
-            ASC Conservation
+          <Link href="/">
+            <Image
+              src="/ASC Conservation Centre LTD. LOGO MASTER.png"
+              alt="ASC Conservation Centre Ltd."
+              height={56}
+              width={160}
+              className="object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}
