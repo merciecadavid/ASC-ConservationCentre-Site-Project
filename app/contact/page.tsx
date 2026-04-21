@@ -168,23 +168,22 @@ export default function Contact() {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">Email</h3>
-                  <a href="mailto:info@ascconservation.com" className="text-slate-600 hover:text-slate-900 transition-colors">
-                    info@ascconservation.com
+                  <a href="mailto:info@amysciberras.com" className="text-slate-600 hover:text-slate-900 transition-colors">
+                    info@amysciberras.com
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">Phone</h3>
-                  <a href="tel:+356XXXXXXXX" className="text-slate-600 hover:text-slate-900 transition-colors">
-                    +356 XXXX XXXX
+                  <a href="tel:+35679271518" className="text-slate-600 hover:text-slate-900 transition-colors">
+                    +356 7927 1518
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">Location</h3>
                   <p className="text-slate-600">
-                    Malta<br />
-                    (Address to be provided)
+                    Qormi, Malta
                   </p>
                 </div>
 
