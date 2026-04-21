@@ -199,17 +199,17 @@ export default function Contact() {
                 <div className="pt-8 border-t border-slate-200">
                   <h3 className="text-lg font-semibold text-slate-900 mb-4">Follow Us</h3>
                   <div className="flex gap-4">
-                    <a href="#" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
+                    <a href="https://www.facebook.com/amysciberras.restoration" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
                       <span className="sr-only">Facebook</span>
-                      📘
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-slate-700">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                      </svg>
                     </a>
-                    <a href="#" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
-                      <span className="sr-only">Instagram</span>
-                      📷
-                    </a>
-                    <a href="#" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
+                    <a href="https://www.linkedin.com/in/amysciberras/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-100 rounded-full flex items-center justify-center hover:bg-slate-200 transition-colors">
                       <span className="sr-only">LinkedIn</span>
-                      💼
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-slate-700">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+                      </svg>
                     </a>
                   </div>
                 </div>
